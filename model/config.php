@@ -1,0 +1,3 @@
+<?php
+spath = "\flores-blog\";
+
