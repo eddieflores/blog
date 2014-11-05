@@ -1,3 +1,3 @@
 <?php
-spath = "\flores-blog\";
+$path = "\flores-blog\";
 

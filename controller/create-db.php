@@ -5,7 +5,7 @@
     $connection = new mysqli($host, $username, $password); //tells where the database is and connects it
     
     if ($connection->connect_error) {//tells what to do if there is an error connecting to dataabse
-        die("<p>Error:" . $connection->connect_error) . "</p>");
+        die("<p>Error: " . $connection->connect_error . "</p>");
     }
     $exists = $connection->select_db($database);//tries to acces a database
     
