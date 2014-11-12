@@ -2,7 +2,7 @@
 
 <form>
     <div>
-        <label for="title">Ttile: </label <!--it has a place for the title-->
+        <label for="title">Title: </label <!--it has a place for the title-->
         <input type="text" name="title" /> <!--it has a name for the title-->
     </div>
     

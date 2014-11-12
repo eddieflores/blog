@@ -1,3 +1,2 @@
 <?php
-$path = "\flores-blog\";
-
+$path = "/Blog/";
