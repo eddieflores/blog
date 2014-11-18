@@ -1,6 +1,6 @@
 <?php
 
-    require_once(__DIR__ . "/../model/database.php"); //it tells the computer where the file directory is at 
+    require_once(__DIR__ . "/../model/config.php"); //it tells the computer where the file directory is at 
 
     $connection = new mysqli($host, $username, $password); //tells where the database is and connects it
     
