@@ -33,7 +33,13 @@ class Database {
     }
 
     public function query($string) {//query means to insert post or titles into the database
-        
+       $this->openconnection();
+       
+       $query = $this->connection->query($string);
+       
+       $this->closeconnection();
+       
+       return $query;
     }
 
 }
